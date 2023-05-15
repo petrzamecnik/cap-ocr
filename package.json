@@ -74,5 +74,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "tesseract.js": "^4.0.2"
   }
 }

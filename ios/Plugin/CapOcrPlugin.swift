@@ -15,4 +15,12 @@ public class CapOcrPlugin: CAPPlugin {
             "value": implementation.echo(value)
         ])
     }
+
+    
+    @objc func detectText(_ call: CAPPluginCall) {
+        let value = call.getString("imageBase64") ?? ""
+        call.resolve([
+            "value": implementation.detectText(value)
+        ])
+    }
 }

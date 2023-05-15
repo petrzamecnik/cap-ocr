@@ -20,5 +20,11 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+    <key>NSCameraUsageDescription</key>
+    <string>Access to the camera is required to take photos and videos.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Access to the photo library is required to select and save photos and videos.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Access to the photo library is required to save photos and videos captured by the camera.</string>
 </dict>
 </plist>
