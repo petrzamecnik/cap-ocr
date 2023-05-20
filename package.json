@@ -1,6 +1,6 @@
 {
   "name": "cap-ocr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugins enables text recognition from images and camera.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

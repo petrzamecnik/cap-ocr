@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`detectText(...)`](#detecttext)
+* [`detectData(...)`](#detectdata)
 
 </docgen-index>
 
@@ -24,6 +25,21 @@ npx cap sync
 
 ```typescript
 detectText(options: { imageBase64: string; }) => Promise<{ value: string; }>
+```
+
+| Param         | Type                                  |
+| ------------- | ------------------------------------- |
+| **`options`** | <code>{ imageBase64: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### detectData(...)
+
+```typescript
+detectData(options: { imageBase64: string; }) => Promise<{ value: string; }>
 ```
 
 | Param         | Type                                  |
