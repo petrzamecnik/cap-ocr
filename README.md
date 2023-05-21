@@ -1,6 +1,7 @@
 # cap-ocr
 
 This plugins enables text recognition from images and camera.
+Proper documentation and guide how to install & use is coming in future versions.
 
 #### WARNING - this plugin is still in early development. Use with caution.
 #### Version 1.0.0 is expected to be stable and fully usable.
