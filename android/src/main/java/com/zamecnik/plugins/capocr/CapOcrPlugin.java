@@ -30,4 +30,13 @@ public class CapOcrPlugin extends Plugin {
         ret.put("value", implementation.detectText(imageBase64));
         call.resolve(ret);
     }
+
+//    @PluginMethod
+//    public void detectData(PluginCall call) {
+//        String imageBase64 = call.getString("imageBase64");
+//
+//        JSObject ret = new JSObject();
+//        ret.put("value", implementation.detectData(imageBase64));
+//        call.resolve(ret);
+//    }
 }
